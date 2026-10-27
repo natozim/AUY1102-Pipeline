@@ -9,6 +9,7 @@ on:
       - master 
 jobs:
   lint:
+    name: "Pruebas CI-CD - Ignacio Albornoz"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
